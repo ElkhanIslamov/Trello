@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="board">
+       
+        <div class="lanes">
+            <div class="swim-lane" id="todo-lane">
+                <h3 class="heading">TODO</h3>
+                
+                <p class="task" draggable="true">Build JS</p>
+                <p class="task" draggable="true">Build React</p>
+                <p class="task" draggable="true">Build CSS</p>
+            </div>
+            
+            <div class="swim-lane">
+                <h3 class="heading">in Progress</h3>
+                
+                <p class="task" draggable="true"> Build HTML</p>
+            </div>
+            
+            <div class="swim-lane">
+                <h3 class="heading">Done</h3>
+                
+                <p class="task" draggable="true">
+                    + Add a card
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="drag.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
